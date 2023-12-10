@@ -1,0 +1,53 @@
+body{
+  background-color: skyblue;
+  margin: 0px;
+}
+
+.flower{
+  width:200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: tomato;
+  position: absolute;
+}
+
+.f1{
+  top: 100px;
+  left: 100px;
+  z-index: 3;
+}
+
+.f2{
+  top: 250px;
+  left: 200px;
+  z-index: 5;
+}
+
+.f3{
+  top: 250px;
+  left: 20px;
+  z-index: 2;
+}
+
+.center{
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  left: 170px;
+  z-index: 5;
+}
+
+.stalk{
+  width: 40px;
+  height: 350px;
+  background-color: green;
+  position: absolute;
+  top:400px;
+  left: 190px
+}
+
